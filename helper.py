@@ -1,9 +1,5 @@
 def GrayScale(width, height, bitmap):
-    for h in range(height):
-        for w in range(width):
-            bitmap[h][w].Red = 255
-            bitmap[h][w].Blue = 255
-            bitmap[h][w].Green = 255
+    pass
 
 # python3 filter.py images/courtyard.bmp -g
 
